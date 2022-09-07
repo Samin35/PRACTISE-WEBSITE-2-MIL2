@@ -1,0 +1,158 @@
+body {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Anek Telugu', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+hr {
+    width: 90%;
+}
+
+.second-section {
+    margin-top: 100px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border: 5px solid orange;
+    border-radius: 23px;
+    padding: 12px;
+    background-color: cyan;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.section-3 {
+    margin-top: 95px;
+}
+
+
+.text-decor {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+
+.margin {
+    margin-right: 33px;
+}
+
+.top-title-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 70px;
+    padding-top: 20px;
+
+}
+
+.first-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1 {
+    padding-left: 40px;
+}
+
+.image1 {
+    padding-top: 80px;
+}
+
+.image2 {
+    padding-top: 50px;
+    padding-right: 60px;
+
+}
+
+.image2 img {
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.grid {
+    Width: 200px;
+    Height: 400px;
+    border-radius: 40px;
+    box-shadow: 11px 10px 40px cyan;
+    padding: 28px;
+
+}
+
+.grid img {
+    width: 100%;
+}
+
+.change img {
+    width: 90%;
+}
+
+.all-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 70px;
+    grid-column-gap: 75px;
+
+}
+
+.fa-star {
+    color: gold;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+.last-section {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-image {
+    padding-left: 230px;
+}
+
+.last-letter {
+    padding-right: 240px;
+}
+
+.justify {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 150px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: cyan;
+}
