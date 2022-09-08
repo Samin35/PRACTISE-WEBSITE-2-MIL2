@@ -156,3 +156,41 @@ footer {
     padding-bottom: 100px;
     background-color: cyan;
 }
+
+@media only screen and (max-width:688px) {
+    .top-title-nav {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .first-image {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .all-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-image {
+        position: relative;
+        right: 200px;
+    }
+
+
+
+}
